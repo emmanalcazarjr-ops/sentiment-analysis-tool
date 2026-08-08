@@ -58,17 +58,17 @@ print(result)
 
 ### REST API
 
-The sentiment analysis is also available as a live API:
+The sentiment analysis is also available as a REST API:
 
 ```bash
-curl -X POST https://sentiment-api-nine.vercel.app/api \
+curl -X POST http://localhost:8000/api \
   -H "Content-Type: application/json" \
   -d '{"text": "This product is amazing!"}'
 ```
 
-## Live Demo
+## Run Locally
 
-[Sentiment Analysis API](https://sentiment-api-nine.vercel.app)
+This API is not currently deployed. Run the tool and REST API locally (see the Installation section above).
 
 ## Author
 
